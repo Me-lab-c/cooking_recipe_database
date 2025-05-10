@@ -1,0 +1,6 @@
+CREATE TABLE recipes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
+    quantity INT NOT NULL,
+    image_url VARCHAR(500)  -- Optional based on the GET query
